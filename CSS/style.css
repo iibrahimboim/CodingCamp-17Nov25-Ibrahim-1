@@ -1,0 +1,15 @@
+
+.logo-icon {
+    height:75px;
+    width:75px;
+    border-radius:50%;
+    background-color:lightgray;
+    background-image: url(https://i.pinimg.com/originals/1e/9a/5d/1e9a5daa361c3bfd4c77efa61c67254b.jpg);
+    background:cover;
+}
+
+.main-header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}

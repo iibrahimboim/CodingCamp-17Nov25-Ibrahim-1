@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ibrahim Company</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <header class="main-header p-[8px]">
+
+            <div class="logo-icon"></div> 
+            
+            <nav class="flex">
+                <a class="border p-[4px] rounded" href="#home-page">Home</a>
+                <a class="border p-[4px] rounded" href="#Our-Profile-Page">Our Profile</a>
+                <a class="border p-[4px] rounded" href="#Portofolio-Page">portofolio</a>
+                <a class="border p-[4px] rounded" href="#Message-Us-Page">Message Us</a>
+            </nav>
+        </header>
+
+        <hr   />
+        
+        <main>
+            <section id="home-page" class="min-h-[500px] text-center content-center">
+                <h2 class="text-xl font-bold" id="welcome-speech">welcome To Our Website</h2>
+                <p class="mt-2">We are glad to have you here. Explore our services and offerings.</p>
+            </section>
+
+            <hr   />
+
+            <section id="our-profile-page" class="min-h-[500px] text-center content-center">
+                <h2 class="text-xl font-bold">About Ibrahim Company</h2>
+                <p class="mt-2"> Ibrahim company focused on creating simple, modern, and reliable digital solutions to help people work smarter.</p>
+            </section>
+
+            <hr   />
+
+            <section id="portofolio-page" class="min-h-[500px] text-center content-center">
+                <h2 class="text-xl font-bold"> Our Portofolio</h2>
+                <p class="mt-2">Check out some of our recent projects and accomplishments.</p>
+            </section>
+
+            <hr   />
+
+            <section id="message-us-page" class="min-h-[500px] px-8 mx-6">
+                <header>
+                    <h2 class="text-xl font-bold">Messege Us</h2>
+                    <p class="mt-2">Have questions or want to work with us? Send us a message!</p>
+                </header>
+
+                <form>
+                    <div class="mb-4">
+                        <label for="name" class="block mb-2">Name:</label>
+                        <input type="text" id="name" name="name" class="w-full p-2 border rounded" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block mb-2">Email:</label>
+                        <input type="email" id="email" name="email" class="w-full p-2 border rounded" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block mb-2">Message:</label>
+                        <textarea id="message" name="message" class="w-full p-2 border rounded" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded">Send Message</button>
+                </form>
+
+            </section>
+        </main>
+
+        <footer>
+            <span>g2025 Yans Company</span>
+        </footer>
+
+        <script src="JS/script.js"></script>
+    </body>
+</html>
