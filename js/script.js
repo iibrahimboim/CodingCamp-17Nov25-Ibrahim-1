@@ -10,4 +10,3 @@ function welcomeMessege() {
     document.getElementById("welcome-speech").innerHTML = "Welcome " + userName + "!";
 }
     function validateform() {}
-
